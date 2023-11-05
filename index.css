@@ -1,0 +1,80 @@
+
+
+#carousel-box{
+    height: 50vh;
+    width: 100%;
+    border: solid black 5px;
+    
+    
+}
+.bgpix{
+
+    width: 900px;
+    background-image: url(/img/bc-crowd1.jpeg);
+}
+#box{
+   
+    height: 450px;
+    align-items: center;
+    width: 900px;
+    justify-content: center;
+    padding-top: 100px;
+    display: inline;
+    
+}
+#box h1{
+    font-size: 50px;
+    text-transform: capitalize;
+    color:black;
+    font-weight: bold;
+}
+#box h2{
+    font-size: 100px;
+    color:rgba(255, 0, 0, 0.988);
+    font-weight: bolder;
+}
+span{
+    color: red;
+}
+#save-btn{
+    background: green;
+    border: none;
+    width: 9rem;
+    border-radius: 5px;
+    height: 2rem;
+    box-shadow:black 5px 5px 5px;
+    font-weight: bolder;
+    font-size: large;
+    color: yellow;
+}
+
+#increment-btn{
+    background: green;
+    border: none;
+    width: 9rem;
+    border-radius: 5px;
+    height: 2rem;
+    box-shadow:red 5px 5px 5px;
+    font-weight: bolder;
+    font-size: large;
+    color: white;
+}
+#last{
+    font-size: 30px;
+    margin: 28px;
+    margin: 20px;
+color: yellow;
+font-weight: bolder;
+
+
+}
+
+#prev-el{
+    
+    
+}
+@media(max-width:480px){
+    #box{
+        width: 450px;
+    }
+}
